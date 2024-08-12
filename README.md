@@ -7,9 +7,7 @@ Window of the program.
 ![alt text](https://raw.githubusercontent.com/DeniedAccessLife/AlfaMoney/master/view.png)
 
 ## Installation and Setup
-
 ### Step 1: Clone the Repository
-
 Clone this repository to your local machine using the following command:
 
 ```bash
