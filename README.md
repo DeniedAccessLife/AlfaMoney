@@ -49,11 +49,11 @@ Make sure `user_id` and `api_key` are not empty.
 To start the script:
 #### Windows
 ```cmd
-python alfa.py
+python AlfaMoney.py
 ```
 #### Linux
 ```bash
-python3 alfa.py
+python3 AlfaMoney.py
 ```
 
 # License
