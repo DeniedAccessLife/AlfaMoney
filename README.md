@@ -9,26 +9,22 @@ Window of the program.
 ## Installation and Setup
 ### Step 1: Clone the Repository
 Clone this repository to your local machine using the following command:
-
 ```bash
 git clone https://github.com/DeniedAccessLife/AlfaMoney.git
 ```
-
 ### Step 2: Navigate to the Project Directory
 Move into the cloned project directory:
-
 ```bash
 cd AlfaMoney
 ```
-
 ### Step 3: Install Dependencies
-#### Windows
+### Windows
 1. Ensure that Python is installed. You can download it from [python.org](https://www.python.org/downloads/).
 2. Open a Command Prompt or PowerShell and run:
     ```cmd
     pip install -r requirements.txt
     ```
-#### Linux
+### Linux
 1. Ensure that Python is installed. You can do this by running:
     ```bash
     sudo apt-get install python3
@@ -49,19 +45,13 @@ Create or edit the `config.json` file in the project directory to include your s
 }
 ```
 Make sure `user_id` and `api_key` are not empty.
-
 ### Step 5: Run the Script
-
 To start the script:
-
 #### Windows
-
 ```cmd
 python alfa.py
 ```
-
 #### Linux
-
 ```bash
 python3 alfa.py
 ```
