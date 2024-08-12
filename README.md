@@ -18,7 +18,7 @@ Move into the cloned project directory:
 cd AlfaMoney
 ```
 ### Step 3: Create and Activate a Virtual Environment (Optional but Recommended)
-It's a good practice to use a virtual environment to manage dependencies for your project.
+It's a good practice to use a virtual environment to manage dependencies for project.
 #### Windows
 1. Create a virtual environment:
     ```cmd
