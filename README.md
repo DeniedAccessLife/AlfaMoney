@@ -1,13 +1,10 @@
 # AlfaMoney
 Script for simulating user interactions with the AlfaMoney game, designed to perform synchronized actions.
 
-## View
+# View
 Window of the program.
 
 ![alt text](https://raw.githubusercontent.com/DeniedAccessLife/AlfaMoney/master/view.png)
-
-## License
-This project is licensed under the unlicensed license - see the [LICENSE](LICENSE) file for details.
 
 ## Installation and Setup
 
@@ -83,3 +80,6 @@ python alfa.py
 ```bash
 python3 alfa.py
 ```
+
+# License
+This project is licensed under the unlicensed license - see the [LICENSE](LICENSE) file for details.
