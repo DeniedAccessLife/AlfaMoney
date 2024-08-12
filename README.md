@@ -48,7 +48,7 @@ pip install -r requirements.txt
 pip3 install -r requirements.txt
 ```
 ### Step 5: Configure the Script
-Create or edit the `Config.json` file in the project directory to include your specific settings. An example of the `Config.json` format:
+Create or edit the `config.json` file in the project directory to include your specific settings. An example of the `config.json` format:
 ```json
 {
   "user_id": "your_user_id",
