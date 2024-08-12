@@ -58,7 +58,7 @@ def safe_request(url, headers):
     return None
 
 # Загрузка конфигурации
-config = load_config('Config.json')
+config = load_config('config.json')
 if not config:
     log("Terminating program due to configuration errors.", level="ERROR")
     exit(1)
