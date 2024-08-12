@@ -17,24 +17,38 @@ Move into the cloned project directory:
 ```bash
 cd AlfaMoney
 ```
-### Step 3: Install Dependencies
-### Windows
-1. Ensure that Python is installed. You can download it from [python.org](https://www.python.org/downloads/).
-2. Open a Command Prompt or PowerShell and run:
+### Step 3: Create and Activate a Virtual Environment (Optional but Recommended)
+It's a good practice to use a virtual environment to manage dependencies for your project. This ensures that your project’s dependencies are isolated from other Python projects.
+#### Windows
+1. Create a virtual environment:
     ```cmd
-    pip install -r requirements.txt
+    python -m venv venv
     ```
-### Linux
-1. Ensure that Python is installed. You can do this by running:
+2. Activate the virtual environment:
+    ```cmd
+    .\venv\Scripts\activate
+    ```
+#### Linux
+1. Create a virtual environment:
     ```bash
-    sudo apt-get install python3
+    python3 -m venv venv
     ```
-2. Install the required dependencies:
+2. Activate the virtual environment:
     ```bash
-    pip3 install -r requirements.txt
+    source venv/bin/activate
     ```
-### Step 4: Configure the Script
-Create or edit the `config.json` file in the project directory to include your specific settings. An example of the `config.json` format:
+### Step 4: Install Dependencies
+With the virtual environment activated, install the required dependencies:
+#### Windows
+```cmd
+pip install -r requirements.txt
+```
+#### Linux
+```bash
+pip3 install -r requirements.txt
+```
+### Step 5: Configure the Script
+Create or edit the `Config.json` file in the project directory to include your specific settings. An example of the `Config.json` format:
 ```json
 {
   "user_id": "your_user_id",
@@ -45,7 +59,7 @@ Create or edit the `config.json` file in the project directory to include your s
 }
 ```
 Make sure `user_id` and `api_key` are not empty.
-### Step 5: Run the Script
+### Step 6: Run the Script
 To start the script:
 #### Windows
 ```cmd
